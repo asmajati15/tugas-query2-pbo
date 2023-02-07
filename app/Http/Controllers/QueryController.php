@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 
-class TransactionController extends Controller
+class QueryController extends Controller
 {
     public function query1(){
         $konsumen = DB::select('SELECT * FROM konsumen WHERE jumlah_transaksi>=15');
