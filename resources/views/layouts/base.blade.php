@@ -115,12 +115,22 @@
                 <ul class="menu-inner py-1">
                     <!-- Dashboard -->
                     <li class="menu-item ">
-                        <a href="index.html" class="menu-link">
+                        <a href="/" class="menu-link">
                             <i class="menu-icon tf-icons bx bx-home-circle"></i>
                             <div data-i18n="Analytics">Dashboard</div>
                         </a>
                     </li>
 
+                    <li class="menu-item ">
+                        <a href="/konsumen" class="menu-link">
+                            <i class="menu-icon tf-icons bx bx-home-circle"></i>
+                            <div data-i18n="Analytics">Konsumen</div>
+                        </a>
+                    <li class="menu-item ">
+                        <a href="/transaksi" class="menu-link">
+                            <i class="menu-icon tf-icons bx bx-home-circle"></i>
+                            <div data-i18n="Analytics">Transaksi</div>
+                        </a>
                     <li class="menu-item ">
                         <a href="/query1" class="menu-link">
                             <i class="menu-icon tf-icons bx bx-home-circle"></i>
