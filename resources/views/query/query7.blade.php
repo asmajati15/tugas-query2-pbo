@@ -11,7 +11,6 @@
         .dropify-wrapper .dropify-message p {
             font-size: 14px;
         }
-
         .tabss {
             padding: 15px;
         }
@@ -32,26 +31,21 @@
                 </div>
                 <div class="tabss table-responsive ">
                     <br>
-
                     <table id="productTable" class="table" style="width:100%">
                         <thead>
                             <tr>
                                 <th>No</th>
                                 <th>nama</th>
-
                                 <th>jumlah_transaksi_2022</th>
                                 <th>Action</th>
-
                             </tr>
                         </thead>
                         <tbody class="table-border-bottom-0">
                             @foreach ($konsumen as $key => $item)
                                 <tr>
                                     <td>{{ $key + 1 }}</td>
-
                                     <td>{{ $item->nama }}</td>
                                     <td>{{ $item->jumlah_transaksi_2022 }}</td>
-
                                     <td style="width: 20%">
                                         <button type="button" class="btn btn-primary" data-bs-toggle="modal"
                                             >
@@ -65,8 +59,6 @@
                     </table>
                 </div>
             </div>
-
-
         </div>
     </div>
 
